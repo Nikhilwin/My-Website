@@ -11,7 +11,7 @@ export default function Footer() {
           <Link href="#" className="flex items-center gap-2" prefetch={false}>
             {/* <CircuitBoard  className="h-6 w-6" /> */}
             <img src="/TechOrb-LOGObg.jpg" alt="logo" className="h-6 w-9 rounded-sm" />
-            <span className="text-xl font-bold">Adarsh Vishwakarma</span>
+            <span className="text-xl font-bold">Nikhil Vishwakarma</span>
           </Link>
           <p className="text-muted-foreground max-w-[300px]">
             Welcome to my portfolio website, showcasing my design and development work.
@@ -47,7 +47,7 @@ export default function Footer() {
               Twitter
             </Link>
             <Link
-              href="https://www.Linkedin/in/adarshx01"
+              href="https://www.linkedin.com/in/nikhil-vishwakarma-a755082bb"
               className="flex items-center gap-2 text-sm hover:underline underline-offset-4"
               prefetch={false}
             >
@@ -55,7 +55,7 @@ export default function Footer() {
               LinkedIn
             </Link>
             <Link
-              href="https://www.github.com/adarshx01"
+              href="https://github.com/Nikhilwin"
               className="flex items-center gap-2 text-sm hover:underline underline-offset-4"
               prefetch={false}
             >
@@ -71,7 +71,7 @@ export default function Footer() {
               Youtube
             </Link>
             <Link
-              href="https://www.instagram.com/techorb.in"
+              href="https://www.instagram.com/n1khil_creates/"
               className="flex items-center gap-2 text-sm hover:underline underline-offset-4"
               prefetch={false}
             >
@@ -90,15 +90,15 @@ export default function Footer() {
           </div> */}
         </nav>
         <div className="flex flex-col gap-4 items-start md:items-end">
-          <p className="text-sm text-muted-foreground">&copy; 2024 Portfolio. All rights reserved.</p>
+          <p className="text-sm text-muted-foreground">&copy; Made with ❤️ by Nikhil Vishwakarma.</p>
           <div className="flex gap-4">
             <Link href="#" className="text-muted-foreground hover:text-foreground" prefetch={false}>
               <TwitterLogoIcon className="h-5 w-5" />
             </Link>
-            <Link href="https://www.linkedin.com/in/adarshx01" className="text-muted-foreground hover:text-foreground" prefetch={false}>
+            <Link href="https://www.linkedin.com/in/nikhil-vishwakarma-a755082bb" className="text-muted-foreground hover:text-foreground" prefetch={false}>
               <LinkedInLogoIcon className="h-5 w-5" />
             </Link>
-            <Link href="https://www.github.com/adarshx01" className="text-muted-foreground hover:text-foreground" prefetch={false}>
+            <Link href="https://github.com/Nikhilwin" className="text-muted-foreground hover:text-foreground" prefetch={false}>
               <GitHubLogoIcon className="h-5 w-5" />
             </Link>
           </div>

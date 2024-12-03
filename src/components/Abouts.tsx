@@ -102,7 +102,7 @@ export function Abouts() {
               ✅ Card grid component
             </div>
             <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              ✅ Startup template Aceternity
+              ✅ Startup template section
             </div>
             <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
               ✅ Random file upload lol
@@ -153,19 +153,19 @@ export function Abouts() {
       <div className="lg:h-[26rem] md:h-[10.5rem] h-[6rem] flex items-center justify-center">
         <TextHoverEffect text="ABOUT ME" />
       </div>
-      <div className="flex  lg:max-w-[80%] md:max-w-[90%] max-w-[90%] rounded-xl  md:h-[23rem] lg:h-[30rem] h-[14rem] items-center justify-center mx-auto shadow-2xl shadow-blue-500">
+      <div className="flex flex-row-reverse  lg:max-w-[80%] md:max-w-[90%] max-w-[90%] rounded-xl  md:h-[23rem] lg:h-[30rem] h-[14rem] items-center justify-center mx-auto shadow-2xl shadow-blue-500">
         <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
           {/* <h1 className="lg:text-7xl font-normal font-mono md:text-4xl mb-4 text-black dark:text-white max-w-4xl">
             About me
 
           </h1> */}
           <p className="text-neutral-700 dark:text-neutral-300 lg:text-xl md:text-sm text-xs max-w-2xl my-auto">
-          I'm Adarsh Vishwakarma, a tech enthusiast and national-level hackathon winner, pursuing a B.Tech in Computer Science at Cochin University. 
-          I specialize in full-stack development, machine learning, and backend systems, driven by a passion for solving challenges and staying ahead in tech.
+          I'm Nikhil Vishwakarma, a tech enthusiast and aspiring ML developer from India, pursuing a BCA in Haris Chandra PG College. 
+          I aspire to make a positive impact in full-stack development, machine learning, and backend systems, driven by a passion for solving challenges and staying ahead in tech.
           </p>
         </div>
-        <div className="max-w-7xl mx-auto my-auto px-4 md:px-8 lg:px-10   w-[30rem]">
-          <img className="w-full bg-transparent mt-12" src="/Adarsh_nobg.png" width={1000} height={1000}></img>
+        <div className="max-w-6xl mx-auto my-auto px-4 md:px-8 lg:px-10   w-[22rem]">
+          <img className="w-full bg-transparent -mt-20 " src="/nikhil-removebg-preview.png"></img>
         </div>
       </div>
       <Timeline data={data} />

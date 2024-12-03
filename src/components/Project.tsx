@@ -6,36 +6,42 @@ import Link from "next/link";
 import Image from "next/image";
 
 const projects = [
-  {
-    name: "Argus",
-    desc: "Developed a machine learning platform for industrial/construction sites to ensure workers wear proper PPE and alert if systems may fail.",
-    image: "/Argus.png", // Example image path
-    deployLink: "https://argus.vercel.com",
-  },
+  // {
+  //   name: "Argus",
+  //   desc: "Developed a machine learning platform for industrial/construction sites to ensure workers wear proper PPE and alert if systems may fail.",
+  //   image: "/Argus.png", // Example image path
+  //   deployLink: "https://argus.vercel.com",
+  // },
   {
     name: "Fast Fingers",
     desc: "A typing game designed for 'Qwerty Rumble' event during DHISHNA 2023 with multiple levels and Firebase authentication.",
-    image: "/Techorb.png",
+    image: "/Argus.png",
     deployLink: "https://qwertyrumble.netlify.app",
   },
+  // {
+  //   name: "GiftedBooks",
+  //   desc: "Developed a platform where users can resell and buy books, focusing on making books available for underprivileged children.",
+  //   image: "/booklearn.png",
+  //   deployLink: "https://giftedbooks.vercel.app",
+  // },
+  // {
+  //   name: "eVillage",
+  //   desc: "A public platform offering free or low-cost computer science education to village students, including a mentorship program.",
+  //   image: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  //   deployLink: "https://evillage.onrender.com",
+  // },
+  // {
+  //   name: "BookLearn",
+  //   desc: "An NLP model that answers questions from pre-trained books to improve reading efficiency, using PyTorch and Hugging Face.",
+  //   image: "/llm.png",
+  //   deployLink: "https://booklearn.netlify.app",
+  // },
   {
-    name: "GiftedBooks",
-    desc: "Developed a platform where users can resell and buy books, focusing on making books available for underprivileged children.",
-    image: "/booklearn.png",
-    deployLink: "https://giftedbooks.vercel.app",
-  },
-  {
-    name: "eVillage",
-    desc: "A public platform offering free or low-cost computer science education to village students, including a mentorship program.",
-    image: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    deployLink: "https://evillage.onrender.com",
-  },
-  {
-    name: "BookLearn",
-    desc: "An NLP model that answers questions from pre-trained books to improve reading efficiency, using PyTorch and Hugging Face.",
-    image: "/llm.png",
-    deployLink: "https://booklearn.netlify.app",
-  },
+    name: "TechOrb",
+    desc: "A tech blog website with a custom CMS and a dark mode toggle, built with Next.js, Tailwind CSS, and Firebase.",
+    image: "/Techorb.png",
+    deployLink: "https://techorb.in",
+  }
 ];
 
 
